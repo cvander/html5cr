@@ -101,6 +101,85 @@ header:hover h1
 {
 	margin-top: 0.5em;
 }
+#mapa_canvas
+{
+	height: 320px;
+	width: 500px;
+}
+#pizzamaker
+{
+	background: #721B00;
+	box-shadow: #000 0px 5px 30px inset;
+	display: none;
+	margin: 0;
+	padding: 0.2em;
+	width: 100%;
+}
+#pizzamaker section
+{
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+}
+#pizzamaker #ingredientes
+{
+	margin: 1%;
+	padding: 0;
+	width: 68%;
+}
+#pizzamaker #ingredientes article
+{
+	background: #D88B00;
+	border-radius: 0.3em;
+	color: white;
+	display: inline-block;
+	font-size: 0.9em;
+	height: 280px;
+	margin: 1.5% 0 1% 2%;
+	padding: 0;
+	vertical-align: top;
+	transition: all 0.5s linear;
+	width: 29%;
+}
+#pizzamaker #ingredientes article:hover
+{
+	background: #000 !important;
+	cursor: pointer;
+	transform: scale(1.2) rotate(365deg);
+}
+#pizzamaker #ingredientes article:nth-child(odd)
+{
+	background: #AC2800;
+}
+#pizzamaker #ingredientes article h2
+{
+	margin: 0;
+	padding: 0;
+}
+#pizzamaker #ingredientes article p
+{
+	padding: 0.5em 1em;
+	text-align: left;
+}
+#pizzamaker #pizza
+{
+	margin: 1% 0;
+	width: 26%;
+}
+
+
+@media screen and (max-width:800px){
+	body
+	{
+		max-width: 800px;
+		min-width: 320px;
+		background: black !important;
+	}
+}
+
+
+
+
 
 
 
