@@ -1,0 +1,115 @@
+@font-face
+{
+	font-family: "Carepistola";
+	src: url("KomikaTitle-webfont.eot");
+	src: url("KomikaTitle-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("KomikaTitle-webfont.woff") format("woff"),
+		 url("KomikaTitle-webfont.ttf") format("truetype"),
+		 url("KomikaTitle-webfont.svg#KomikaTitleRegular") format("svg");
+}
+article, footer, header, section
+{
+	display: block;
+}
+body
+{
+	background: #800;
+	font-family: "Open Sans", Arial;
+	font-size: 16px;
+	margin: 0;
+	text-align: center;
+}
+footer, header, section
+{
+	background: white;
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0, 0.5) 0px 5px 10px;
+	/*-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-o-border-radius: 0.5em;
+	-ms-border-radius: 0.5em;*/
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+}
+header
+{
+	background: url("logo.png") no-repeat 10px center,
+				url("mantel.jpg");
+	color: black;
+}
+header h1
+{
+	background: rgba(0,0,0,0);
+	font-family: "Carepistola";
+	font-size: 3em;
+	text-shadow: rgba(0,0,0,0.8) 2px 2px 10px;
+	transition: all 1s linear;
+}
+header:hover h1
+{
+	color: white;
+	text-shadow: #DDD 0px 2px 1px,
+				 #BBB 2px 4px 2px,
+				 #DDD 4px 6px 3px,
+				 #DDD 6px 8px 4px;
+	transform: rotate(7deg) rotateX(30deg) skewX(-5deg);
+}
+#formulario
+{
+	background: #FCAC00;
+	border-radius: 0.5em;
+	color: white;
+	font-size: 1.8em;
+	margin: 0.5em auto;
+	padding: 0.5em;
+	width: 60%;
+}
+#formulario input
+{
+	border: none;
+	display: block;
+	margin: 0.5em auto;
+	padding: 0.2em;
+	width: 70%;
+}
+#formulario input[type="submit"]
+{
+	background: #721B00;
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.5) 5px -5px 10px inset;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	width: 72%;
+}
+#historia
+{
+	background: #721B00;
+	border-radius: 0.3em;
+	box-shadow: #000 2px 2px 10px inset;
+	color: white;
+	column-count: 3;
+	-webkit-column-count: 3;
+	column-gap: 3em;
+	column-rule: 1px solid #aaa;
+	padding: 1em;
+	text-align: justify;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 10px;
+}
+#historia p:first-child
+{
+	margin-top: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
