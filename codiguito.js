@@ -9,7 +9,7 @@ function iniciar()
 }
 function aleatorio(min, max)
 {
-	return Math.floor(Math.random() * (min - max + 1) + max);
+	return Math.floor(Math.random() *(1+max-min))+min;
 }
 function dibujar()
 {
